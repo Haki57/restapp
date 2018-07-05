@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:views="clr-namespace:tets2.Views" 
+            x:Class="tets2.Views.MainPage">
+    <ScrollView>
+        <StackLayout Padding="5" BackgroundColor="Black">
+
+            <Label Text="Кто вы?" FontSize="30" 
+             HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black" TextColor="#00FFF7" />
+             <ListView x:Name="people"  ItemSelected = "PersonSelected"/>
+             <Button x:Name="Fin" Text = "Подтвердить" FontSize="Large" BorderWidth= "2"
+             HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black" TextColor="White" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

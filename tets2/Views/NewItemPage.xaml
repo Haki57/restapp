@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tets2.Views.NewItemPage" 
+             Title="New Item">
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Выберите Ресторан" FontSize="Medium" />
+            <ListView x:Name="Restaurants" ItemSelected="RestSelected"/>
+        <Button x:Name="Fin" Text = "Выбрать" FontSize="Large" BorderWidth= "2"
+             HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black" TextColor="White"       
+             />
+        </StackLayout>
+</ContentPage>

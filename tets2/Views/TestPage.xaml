@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="tets2.Views.TestPage">
+    <StackLayout>
+        <Entry x:Name="count"  
+             Placeholder= "Количество" BackgroundColor="White" TextColor="Black"/>
+        <Editor x:Name="Comment"  
+              BackgroundColor="White" TextColor="Black"/>
+        <Entry x:Name="table"  
+             Placeholder= "Столик" BackgroundColor="White" TextColor="Black"/>
+         <Button x:Name = "Fin" Text = "Отправить" FontSize="Large" BorderWidth= "2"
+             HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black" TextColor="White"/>
+    </StackLayout>
+</ContentPage>

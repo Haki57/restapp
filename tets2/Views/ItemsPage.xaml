@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="tets2.Views.ItemsPage" Title="{Binding Title}" 
+             x:Name="BrowseItemsPage">
+    <StackLayout>
+        <Entry x:Name="SE" TextChanged="SE_TextChanged" 
+             Placeholder= "Введите название блюда" BackgroundColor="White" TextColor="Black"/>
+        <ListView x:Name="meals" ItemTapped="MealTapped"/>
+        <Button x:Name = "Fin" Text = "Завершить заказ" FontSize="Large" BorderWidth= "2"
+             HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black" TextColor="White"/>
+    </StackLayout>
+</ContentPage>
